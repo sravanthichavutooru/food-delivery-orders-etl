@@ -1,0 +1,8 @@
+order_id,order_date,restaurant_id,customer_id,amount,status,delivery_minutes
+1001,2026-10-20,R01,C01,25.00,delivered,35
+1002,2026-10-20,R02,C02,18.00,cancelled,
+1003,2026-10-20,R01,C03,30.00,delivered,55
+1001,2026-10-20,R01,C01,25.00,delivered,35
+1004,2026-10-21,R03,C01,22.00,delivered,40
+1005,2026-10-21,R02,,15.00,delivered,30
+1006,2026-10-21,R03,C04,-10.00,delivered,25

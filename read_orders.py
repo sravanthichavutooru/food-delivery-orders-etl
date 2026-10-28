@@ -105,6 +105,7 @@ rows = connection.execute(
 
 for row in rows:
     print(row)
+    print("\nDelivered order amount by restaurant:")
     connection.execute("""
     CREATE TABLE IF NOT EXISTS restaurants (
         restaurant_id TEXT PRIMARY KEY,
